@@ -49,5 +49,6 @@
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.11.1"
-  }
+  },
+  "homepage": "https://randomcodingperson.github.io/portfolio/"
 }

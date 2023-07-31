@@ -19,7 +19,7 @@ function App() {
                   "a Student",
                   "a Programmer",
                   "a Designer",
-                  "a Violin",
+                  "a Violinist",
                   "a Volunteer"
                 ],
                 autoStart: true,
