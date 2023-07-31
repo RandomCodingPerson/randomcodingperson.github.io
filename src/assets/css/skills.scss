@@ -1,0 +1,75 @@
+@import url("./global.scss");
+
+skills {
+    width: 80vw;
+    margin-left: 10vw;
+    display:block;
+    margin-top:calc(30vh - 52px);
+    height:fit-content;
+
+    h2 {
+        margin-left:38vw;
+        width:fit-content;
+        transform:translateX(-50%);
+        padding: 0 2vw;
+    }
+
+    .skillsContainer {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        flex-direction:row;
+        width:100%;
+        height: 80vh;
+    }
+
+
+    .skillBox {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        background:var(--sd-transparent-2);
+        width:30%;
+        margin: 1vh 0;
+        height:fit-content;
+        border-radius:.5vw;
+        min-width: 200px; 
+        align-items: center;
+        transition: 0.5s ease;
+        img {
+            width: 46%;
+            border-radius: 0.5vw 0 0 0.5vw;
+            height: auto;
+            margin:2%;
+            transition: .5s ease;
+            filter: brightness(50%) grayscale(60%);
+        }
+        div {
+            text-align:center;
+            padding:2%;
+            width: 46%;
+            height:fit-content;
+            align-items:center;
+            h4 {
+                color: var(--light);
+                font-family: var(--sans);
+                padding:0;
+                margin:0;
+            }
+            p {
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+    .skillBox:hover {
+        transform:scale3d(1.1,1.1,1.1) rotate(5deg);
+        img {
+            margin:0;
+            width: 50%;
+            transform:scale3d(1.1,1.1,1.1);
+            border-radius:.5vw;
+            filter: brightness(100%) grayscale(0%);
+        }
+    }
+}

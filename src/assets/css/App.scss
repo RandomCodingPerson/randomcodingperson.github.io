@@ -1,0 +1,14 @@
+@import url("./global.scss");
+
+body, html {
+  background: var(--dark);
+  scroll-behavior: smooth;
+}
+
+p, button, a {
+  font-size: 1.25vw;
+}
+
+.scrollTo {
+  transform:translateY(calc(20vh - 52px));
+}

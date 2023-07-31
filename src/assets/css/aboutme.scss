@@ -1,0 +1,26 @@
+@import url("./global.scss");
+
+aboutme {
+    width: 80vw;
+    margin-left: 10vw;
+    display:block;
+    height:fit-content;
+    margin-top: calc(30vh - 52px);
+
+
+.photo {
+    border-radius: 0.5vw;
+    border: none;
+    background: rgba(0,0,0,1);
+    margin-left:10vw;
+    width: 25vw;
+    height: 25vw;
+    box-shadow: 10px 10px var(--accent);
+    transition: 1s ease;
+}
+
+.photo:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 20px 20px var(--accent);
+}
+}

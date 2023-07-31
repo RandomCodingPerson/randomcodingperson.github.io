@@ -1,0 +1,37 @@
+@import url("./global.scss");
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: var(--light);
+    font-family: var(--mono);
+    font-weight: 300;
+    top: 0;
+    font-size:17px;
+    a {
+        color: var(--light);
+        text-decoration: none;
+        transition:.5s ease;
+    }
+    a:hover {
+        color: var(--accent);
+    }
+}
+
+.navbar__title {
+    margin-right: auto;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: 1s ease;
+    color: var(--light) !important;
+    text-decoration: none;
+}
+
+.navbar__item:hover {
+    color: var(--accent);
+}
