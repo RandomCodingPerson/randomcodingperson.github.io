@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.548d2fcc.css",
-    "main.js": "/static/js/main.b0fcd588.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/vibhuvsharma.png": "/static/media/vibhuvsharma.206f302d316947364b7a.png",
-    "static/media/postgresql.jpg": "/static/media/postgresql.f2affadfb330e415793b.jpg",
-    "static/media/bulletpoint.png": "/static/media/bulletpoint.a41a0bf926a81610ea4a.png",
-    "static/media/github.png": "/static/media/github.ff2648078e819f6a9666.png",
-    "static/media/sails.png": "/static/media/sails.6d44c5d9229d183b7e14.png",
-    "static/media/mpa.png": "/static/media/mpa.1f786b6420150561d197.png",
-    "static/media/figma.jpg": "/static/media/figma.f95220f9421bb9351d35.jpg",
-    "static/media/programming.svg": "/static/media/programming.20be497157949e9bb5fb6bd4318f8814.svg",
-    "static/media/CodeNinjas.jpg": "/static/media/CodeNinjas.6cc3315cebb19ecdf1d2.jpg",
-    "static/media/nodejs.png": "/static/media/nodejs.58d4f36f8f563ba8a4a9.png",
-    "index.html": "/index.html",
-    "main.548d2fcc.css.map": "/static/css/main.548d2fcc.css.map",
-    "main.b0fcd588.js.map": "/static/js/main.b0fcd588.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.d2543e8a.css",
+    "main.js": "/portfolio/static/js/main.27a98c6c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/vibhuvsharma.png": "/portfolio/static/media/vibhuvsharma.206f302d316947364b7a.png",
+    "static/media/postgresql.jpg": "/portfolio/static/media/postgresql.f2affadfb330e415793b.jpg",
+    "static/media/bulletpoint.png": "/portfolio/static/media/bulletpoint.a41a0bf926a81610ea4a.png",
+    "static/media/github.png": "/portfolio/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/sails.png": "/portfolio/static/media/sails.6d44c5d9229d183b7e14.png",
+    "static/media/mpa.png": "/portfolio/static/media/mpa.1f786b6420150561d197.png",
+    "static/media/figma.jpg": "/portfolio/static/media/figma.f95220f9421bb9351d35.jpg",
+    "static/media/programming.svg": "/portfolio/static/media/programming.20be497157949e9bb5fb6bd4318f8814.svg",
+    "static/media/CodeNinjas.jpg": "/portfolio/static/media/CodeNinjas.6cc3315cebb19ecdf1d2.jpg",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.58d4f36f8f563ba8a4a9.png",
+    "index.html": "/portfolio/index.html",
+    "main.d2543e8a.css.map": "/portfolio/static/css/main.d2543e8a.css.map",
+    "main.27a98c6c.js.map": "/portfolio/static/js/main.27a98c6c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.548d2fcc.css",
-    "static/js/main.b0fcd588.js"
+    "static/css/main.d2543e8a.css",
+    "static/js/main.27a98c6c.js"
   ]
 }
