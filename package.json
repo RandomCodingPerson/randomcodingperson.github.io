@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -50,5 +50,5 @@
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.11.1"
   },
-  "homepage": "https://randomcodingperson.github.io/portfolio/"
+  "homepage": "https://randomcodingperson.github.io/"
 }

@@ -8,8 +8,8 @@ export default function App() {
 
   return (
     <footer>
-      <h5>Made with ❤️ by Vibhuv Sharma</h5>
-      <h5>&copy; 2023 Vibhuv Sharma</h5>
+      <p>Made with ❤️ by Vibhuv Sharma</p>
+      <p>&copy; 2023 Vibhuv Sharma</p>
       <div class='icons'>
         <a href='https://linkedin.com' target='__blank'><FontAwesomeIcon icon={faLinkedin} /></a>
         <a href='mailto:vibhuvnaraya.sharma@gmail.com' target='__blank'><FontAwesomeIcon icon={faAt} /></a>

@@ -7,12 +7,7 @@ import NotFound from './pages/404.js';
 
 export default function App() {
   return (
-    <BrowserRouter basename="https://randomcodingperson.github.io/portfolio/">
-      <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/*" element={<NotFound/>}></Route>
-      </Routes>
-    </BrowserRouter>
+    <Home/>
   );
 }
 
@@ -22,3 +17,16 @@ root.render(<App />);
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+/*
+
+<BrowserRouter basename="https://randomcodingperson.github.io/">
+      <Routes>
+        <Route path="/*" element={<Home/>}></Route>
+        {/*<Route path="/*" element={<NotFound/>}></Route>
+        } 
+        </Routes>
+        </BrowserRouter>
+
+*/
