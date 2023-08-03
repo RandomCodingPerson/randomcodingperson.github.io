@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, Redirect, BrowserRouter } from "react-router-dom";
 import Home from './pages/index.js';
 import NotFound from './pages/404.js';
 
 export default function App() {
   return (
-    <Home/>
+    <BrowserRouter>
+      <Home/>
+    </BrowserRouter>
   );
 }
 
@@ -18,6 +20,13 @@ root.render(<App />);
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+/*
+<HashRouter>
+    <Routes>
+        <Route path="/" element={<Home/>}></Route>
+</Routes>
+</HashRouter>
+*/
 
 /*
 

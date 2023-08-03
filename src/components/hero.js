@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from "typewriter-effect";
-import vector from "../assets/images/programming.svg"
+import vector from "../assets/images/programming.svg";
 
 import '../assets/css/hero.scss';
 
@@ -28,9 +28,11 @@ function App() {
             />
           </h1>
         </div>
-        <button>
-          View my Resume
-        </button>
+        <a href='resume.pdf' target='__blank'>
+          <button>
+            View my Resume
+          </button>
+        </a>
       </wrap>
       <img src={vector}></img>
 

@@ -10,7 +10,7 @@ export default function App() {
       </div>
       <div className='flex'>
         <p className='halfScreen'>
-        Hi! My name is <span class='accented'>Vibhuv Sharma</span>. I'm a junior attending 
+        Hi! My name is <span class='accented'>Vibhuv Sharma</span>. I'm a sophomore attending 
         Montgomery High School in New Jersey. My goal is to be able to use technology to create 
         change and make an impact on others. My programming journey started in 2020 when I began to 
         learn <span class='accented'>python</span>, and continued in 2021 when I 
