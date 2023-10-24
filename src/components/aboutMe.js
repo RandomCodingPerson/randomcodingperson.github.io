@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/images/vibhuvsharma.png"
+import photo from "../assets/images/vibhuvsharma.jpeg"
 import '../assets/css/aboutme.scss'
 
 export default function App() {
