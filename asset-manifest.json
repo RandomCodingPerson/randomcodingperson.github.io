@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2543b641.css",
-    "main.js": "/static/js/main.206a64f2.js",
+    "main.css": "/static/css/main.70e2a91a.css",
+    "main.js": "/static/js/main.81663676.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/PyadaProtocol.png": "/static/media/PyadaProtocol.496f110b80974f43c677.png",
+    "static/media/WildBlue.jpg": "/static/media/WildBlue.9b9f03dc358853115ef7.jpg",
     "static/media/postgresql.jpg": "/static/media/postgresql.f2affadfb330e415793b.jpg",
     "static/media/bulletpoint.png": "/static/media/bulletpoint.a41a0bf926a81610ea4a.png",
     "static/media/github.png": "/static/media/github.ff2648078e819f6a9666.png",
@@ -11,15 +13,16 @@
     "static/media/figma.jpg": "/static/media/figma.f95220f9421bb9351d35.jpg",
     "static/media/programming.svg": "/static/media/programming.20be497157949e9bb5fb6bd4318f8814.svg",
     "static/media/CodeNinjas.jpg": "/static/media/CodeNinjas.6cc3315cebb19ecdf1d2.jpg",
+    "static/media/logo.png": "/static/media/logo.a79308c16901c6ea3ee0.png",
     "static/media/vibhuvsharma.jpeg": "/static/media/vibhuvsharma.158f45a792b721f862ae.jpeg",
     "static/media/nodejs.png": "/static/media/nodejs.58d4f36f8f563ba8a4a9.png",
     "index.html": "/index.html",
-    "main.2543b641.css.map": "/static/css/main.2543b641.css.map",
-    "main.206a64f2.js.map": "/static/js/main.206a64f2.js.map",
+    "main.70e2a91a.css.map": "/static/css/main.70e2a91a.css.map",
+    "main.81663676.js.map": "/static/js/main.81663676.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2543b641.css",
-    "static/js/main.206a64f2.js"
+    "static/css/main.70e2a91a.css",
+    "static/js/main.81663676.js"
   ]
 }
