@@ -5,16 +5,18 @@ import Navbar from '../components/navbar.js';
 import Cursor from '../components/cursor.js';
 import AboutMe from '../components/aboutMe.js';
 import Experience from '../components/experience.js';
+import Projects from '../components/projects.js';
 import Skills from '../components/skills.js';
 import Footer from '../components/footer.js';
 
 import '../assets/css/App.scss';
-import '../assets/css/swiper.scss';
 
+/*
+import '../assets/css/swiper.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Mousewheel, Pagination } from 'swiper/modules';
+import { Mousewheel, Pagination } from 'swiper/modules';*/
 
 function App() {
   
@@ -27,6 +29,8 @@ function App() {
       <AboutMe/>
       <div id='experience' className='scrollTo'></div>
       <Experience/>
+      <div id='projects' className='scrollTo'></div>
+      <Projects/>
       <div id='skills' className='scrollTo'></div>
       <Skills/>
       <div id='contact' className='scrollTo'></div>

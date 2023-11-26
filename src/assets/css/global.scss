@@ -35,6 +35,9 @@
     --mono: "Roboto Mono", monospace;
 }
 
+* {
+    font-size: 1.25vw;
+  }
 
 /* ===== Scrollbar CSS ===== */
   * {
@@ -135,3 +138,21 @@ li {
 .accented {
     color: var(--accent);
 }
+
+
+@media screen and (max-width: 850px) {
+    * {
+        font-size: 3vw;
+    }
+    h1 {
+        font-size: 9vw;
+    }
+    
+    h2 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+}
+

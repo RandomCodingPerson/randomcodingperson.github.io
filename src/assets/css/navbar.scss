@@ -7,7 +7,6 @@
     font-family: var(--mono);
     font-weight: 300;
     top: 0;
-    font-size:17px;
     a {
         color: var(--light);
         text-decoration: none;
@@ -20,16 +19,23 @@
 
 .navbar__title {
     margin-right: auto;
-    padding: 12px 16px;
+    padding: 1vw 1.25vw;
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    img {
+        height: 3vw;
+    }
 }
 
 .navbar__item {
-    padding: 16px 16px;
+    padding: 1.25vw 1.25vw;
     cursor: pointer;
     vertical-align: middle;
     transition: 1s ease;
     color: var(--light) !important;
     text-decoration: none;
+    height:fit-content;
 }
 
 .navbar__item:hover {

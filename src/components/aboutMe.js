@@ -8,8 +8,8 @@ export default function App() {
       <div>
         <h2>About me</h2> <div className='hr'></div>
       </div>
-      <div className='flex'>
-        <p className='halfScreen'>
+      <div className='aboutWrap'>
+        <p className='description'>
         Hi! My name is <span class='accented'>Vibhuv Sharma</span>. I'm a sophomore attending 
         Montgomery High School in New Jersey. My goal is to be able to use technology to create 
         change and make an impact on others. My programming journey started in 2020 when I began to 

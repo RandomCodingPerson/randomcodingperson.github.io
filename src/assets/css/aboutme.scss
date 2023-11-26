@@ -7,6 +7,10 @@ aboutme {
     height:fit-content;
     margin-top: calc(30vh - 52px);
 
+    .aboutWrap {
+        display:flex;
+        flex-direction:row;
+    }
 
 .photo {
     border-radius: 0.5vw;
@@ -22,5 +26,29 @@ aboutme {
 .photo:hover {
     transform: translate(-5px, -5px);
     box-shadow: 20px 20px var(--accent);
+}
+}
+
+@media screen and (max-width: 850px) {
+    aboutme {
+
+    .aboutWrap {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .photo {
+        width: 100%;
+        box-shadow: none;
+        height:auto;
+        margin:0;
+        margin: 2vh 0; 
+    }
+    .photo:hover {
+        transform: none;
+        box-shadow:none;
+    }
+    .description {
+        width: 100%;
+    }
 }
 }

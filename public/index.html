@@ -3,11 +3,30 @@
   <head>
     <style>
 
-    svg {
+    .icons > a > svg {
         height: 5vh !important;
         padding:1vw;
         background: var(--sd-transparent);
         border-radius: .5vw;
+    }
+
+    .hWrap> a >svg {
+      color: var(--light); 
+      transition: 0.5s ease;
+    }
+    .hWrap > a > svg:hover {
+      color: var(--accent);
+    }
+
+    @media screen and (max-width: 850px) {
+      .icons > a > svg {
+        padding:3vw;
+        height: 3vh !important;
+        border-radius: 1vw;
+      }
+      .icons>a>svg:hover {
+        box-shadow:none;
+      }
     }
 
     html {
@@ -17,14 +36,14 @@
 
     </style>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Vibhuv Sharma's personal website and software portfolio"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
