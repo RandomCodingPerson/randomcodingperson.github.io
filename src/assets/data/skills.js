@@ -52,6 +52,24 @@ const skills = [
         "time": 2,
         "image": require('../images/figma.jpg'),
         "year": 2021
+    },
+    {
+        "skill": "Discord.js",
+        "time": 4,
+        "image": require('../images/discordjs.png'),
+        "year": 2019
+    },
+    {
+        "skill": "HTML",
+        "time": 3,
+        "image": require('../images/html5.png'),
+        "year": 2020
+    },
+    {
+        "skill": "Sass/scss",
+        "time": 3,
+        "image": require('../images/sass.png'),
+        "year": 2020
     }
 ]
 
