@@ -22,6 +22,7 @@ function App() {
   
   return (
     <div>
+      
       <Cursor/>
       <Navbar/>
       <Hero/>
