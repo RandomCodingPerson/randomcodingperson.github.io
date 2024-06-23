@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90fecdda.css",
-    "main.js": "/static/js/main.5efcc7f2.js",
+    "main.js": "/static/js/main.8740398f.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PyadaProtocol.png": "/static/media/PyadaProtocol.496f110b80974f43c677.png",
     "static/media/WildBlue.jpg": "/static/media/WildBlue.9b9f03dc358853115ef7.jpg",
@@ -20,11 +20,11 @@
     "static/media/nodejs.png": "/static/media/nodejs.58d4f36f8f563ba8a4a9.png",
     "index.html": "/index.html",
     "main.90fecdda.css.map": "/static/css/main.90fecdda.css.map",
-    "main.5efcc7f2.js.map": "/static/js/main.5efcc7f2.js.map",
+    "main.8740398f.js.map": "/static/js/main.8740398f.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90fecdda.css",
-    "static/js/main.5efcc7f2.js"
+    "static/js/main.8740398f.js"
   ]
 }
