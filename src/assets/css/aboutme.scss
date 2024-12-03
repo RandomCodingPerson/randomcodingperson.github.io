@@ -21,11 +21,18 @@ aboutme {
     height: 25vw;
     box-shadow: 10px 10px var(--accent);
     transition: 1s ease;
+    object-fit: cover;
+
+
+    outline: 12.5vw solid var(--accent-verytransparent) !important;
+    outline-offset: -12.5vw;
+    
 }
 
 .photo:hover {
     transform: translate(-5px, -5px);
     box-shadow: 20px 20px var(--accent);
+    outline: 12.5vw solid rgba(0,0,0,0) !important;
 }
 }
 
