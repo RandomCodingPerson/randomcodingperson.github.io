@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f97d4a5b.css",
-    "main.js": "/static/js/main.41dc66b8.js",
+    "main.css": "/static/css/main.9c381f48.css",
+    "main.js": "/static/js/main.f00140a9.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PyadaProtocol.png": "/static/media/PyadaProtocol.496f110b80974f43c677.png",
     "static/media/landscape.jpg": "/static/media/landscape.3a1107d08d9b6e097319.jpg",
@@ -12,19 +12,22 @@
     "static/media/sails.png": "/static/media/sails.6d44c5d9229d183b7e14.png",
     "static/media/mpa.png": "/static/media/mpa.1f786b6420150561d197.png",
     "static/media/figma.jpg": "/static/media/figma.f95220f9421bb9351d35.jpg",
+    "static/media/fusion360.png": "/static/media/fusion360.d7cc9c52275f1651d92c.png",
     "static/media/programming.svg": "/static/media/programming.20be497157949e9bb5fb6bd4318f8814.svg",
+    "static/media/easyeda.png": "/static/media/easyeda.b05809392d1e162ac21f.png",
     "static/media/CodeNinjas.jpg": "/static/media/CodeNinjas.6cc3315cebb19ecdf1d2.jpg",
     "static/media/sass.png": "/static/media/sass.e6e42f90f96c395da477.png",
     "static/media/logo.png": "/static/media/logo.a79308c16901c6ea3ee0.png",
+    "static/media/stata.png": "/static/media/stata.65ebf602396a07e2b686.png",
     "static/media/html5.png": "/static/media/html5.f435654e9209548c56f2.png",
     "static/media/nodejs.png": "/static/media/nodejs.58d4f36f8f563ba8a4a9.png",
     "index.html": "/index.html",
-    "main.f97d4a5b.css.map": "/static/css/main.f97d4a5b.css.map",
-    "main.41dc66b8.js.map": "/static/js/main.41dc66b8.js.map",
+    "main.9c381f48.css.map": "/static/css/main.9c381f48.css.map",
+    "main.f00140a9.js.map": "/static/js/main.f00140a9.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f97d4a5b.css",
-    "static/js/main.41dc66b8.js"
+    "static/css/main.9c381f48.css",
+    "static/js/main.f00140a9.js"
   ]
 }
