@@ -1,5 +1,23 @@
 const skills = [
     {
+        "skill": "Stata",
+        "time": 1,
+        "image": require('../images/stata.png'),
+        "year": 2024
+    },
+    {
+        "skill": "Fusion 360",
+        "time": 4,
+        "image": require('../images/fusion360.png'),
+        "year": 2021
+    },
+    {
+        "skill": "EasyEDA",
+        "time": 1,
+        "image": require('../images/easyeda.png'),
+        "year": 2024
+    },
+    {
         "skill": "React.js",
         "time": 3,
         "image": require('../images/react.png'),

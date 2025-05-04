@@ -12,10 +12,11 @@ export default function App() {
   var i;
 
   function clickAcc(e) {
-    console.log('this is e', e)
-    e.target.classList.toggle("active");
-    var panel = e.target.nextElementSibling;
-    if (panel.style.display === "block") {
+    e.currentTarget.classList.toggle("active");
+    var panel = e.currentTarget.nextElementSibling;
+    
+    
+    if (panel.style.display == "block") {
       panel.style.display = "none";
     } else {
       panel.style.display = "block";
@@ -34,7 +35,7 @@ export default function App() {
         return (
           <div>
             <button class="accordion" onClick={clickAcc}>{x.title} -&nbsp;<span className='company'>{x.company}</span></button>
-<div class="panel" id={(i==0) ? "fpanel" : `${i}panel`}>
+<div class="panel" id={`${i}panel`} style={(i==0) ? {"display":"block"} : {}}>
   <p className='dates'>{x.startDate} - {x.endDate}</p>
 <ul>
         {x.bullets.map((y, j) => {

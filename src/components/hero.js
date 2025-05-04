@@ -9,18 +9,19 @@ function App() {
     <container>
       <wrap>
         <p className='welcome'>Hi! My name is</p>
-        <h1>Vibhuv Sharma</h1>
+        <h1 className='bigger'>Vibhuv Sharma</h1>
         <div className='typewriter'>
           <h1>I am&nbsp;</h1>
           <h1> 
             <Typewriter
               options={{
+                delay: 250,
                 strings: [ 
                   "a Student",
                   "a Programmer",
-                  "a Designer",
+                  "a Researcher",
                   "an Engineer",
-                  "a Volunteer"
+                  "a Volunteer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -29,8 +30,8 @@ function App() {
           </h1>
         </div>
         <p>
-          I am a sophomore at Montgomery High School and a developer who is passionate about using
-          technology to solve real problems that we face in our lives.
+          Current junior at Montgomery High School who's interested in all things science, engineering, math, and politics. 
+          I love learning more about diverse fields and about their intersections.
         </p>
         <a href='resume.pdf' target='__blank'>
           <button>

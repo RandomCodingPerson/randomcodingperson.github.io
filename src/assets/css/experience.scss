@@ -23,6 +23,7 @@ experience {
             margin: 2vh 0;
             display:flex;
           }
+        }
           
           
           /* Style the accordion panel. Note: hidden by default */
@@ -31,12 +32,8 @@ experience {
             display: none;
             overflow: hidden;
           }
-          #fpanel {
-            padding: 0 18px;
-            display: block;
-            overflow: hidden;
-          }
-    }
+          
+    
     .companyLogo {
         border-radius: 200%;
         width: 8em;
